@@ -1,0 +1,19 @@
+div(ng-include='"components/navbar/navbar.html"')
+
+header
+	.container
+		.col-xs-12
+			h1 Create your maps &amp; test 'em right here!
+
+.container
+	.row
+		.col-xs-12
+			a.btn.btn-success.btn-create(href='/editor') Create New
+			h2 Your maps listed below
+			ul(ng-repeat='map in playerMaps')
+				li 
+					a{{map.name}}
+					img.map-thumbnail(src='{{map.thumb}}')
+					button.close(type='button', ng-click='deleteMap(map)') ×
+
+div(ng-include='"components/footer/footer.html"')

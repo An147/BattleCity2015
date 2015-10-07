@@ -1,0 +1,92 @@
+@import 'bootstrap/less/bootstrap.less';
+@import 'font-awesome/less/font-awesome.less';
+
+@icon-font-path: '/bower_components/bootstrap/fonts/';
+@fa-font-path: '/bower_components/font-awesome/fonts';
+
+/**
+ * App-wide Styles
+ */
+
+body{
+	min-height: 100vh;
+	font-family: "Segoe UI", "Trebuchet MS", Arial, sans-serif;
+	font-weight: 100;
+}
+
+ .browsehappy {
+ 	margin: 0.2em 0;
+ 	background: #ccc;
+ 	color: #000;
+ 	padding: 0.2em 0;
+ }
+
+ .transparent(){
+ 	background-color: transparent;
+ 	background: none;
+ 	background-image: none;
+ }
+
+ .navbar.navbar-default{
+ 	 @bgc: #E44F3A;
+ 	 @fz: 1.3em;
+
+ 	.transparent;
+ 	background-color: @bgc;
+ 	border-color: darken(@bgc, 20%);
+
+ 	.navbar-brand{
+ 		display: none;
+ 	}
+
+ 	.navbar-text{
+ 		color: #DEFF03;
+		font-weight: 100;
+		font-size: @fz;
+ 	}
+
+ 	.nav{
+ 		.transparent;
+		li{
+			// @bdr: 1px solid white;
+			// &:first-child{
+			// 	border-left: @bdr;
+			// }
+			// border-right:@bdr;
+
+			.transparent;
+			background-color: @bgc;
+			&.active,&:hover{
+				background-image: none;
+				a{
+					color: #fff;
+					background-color: transparent;
+				}
+			}
+			a{
+				color: #fff;
+				font-size: @fz;
+				&:hover,&:focus{
+					.transparent;
+				}
+				&:focus{
+					background-color: darken(@bgc, 10%);
+				}
+			}
+		}
+	}
+ }		
+
+
+// injector
+@import 'account/login/login.less';
+@import 'admin/admin.less';
+@import 'main/main.less';
+@import 'maps/editor/map-editor.less';
+@import 'maps/maps-list/maps-list.less';
+@import 'maps/scenario-editor/scenario.less';
+@import 'maps/scenarios-list/scenarios-list.less';
+@import 'canvas/canvas.less';
+@import 'footer/footer.less';
+@import 'modal/modal.less';
+// endinjector

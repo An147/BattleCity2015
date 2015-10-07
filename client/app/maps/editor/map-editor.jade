@@ -1,0 +1,16 @@
+div(ng-include='"components/navbar/navbar.html"')
+
+.container-fluid
+	.row
+		.col-xs-12
+			a.back-link(href='/maps') Back to maps list
+.container-fluid
+	.row
+		.col-xs-12
+			div(id='editorCanvas' ng-include='"components/canvas/canvas.html"')
+.container-fluid
+	.row
+		.col-xs-12
+			p Tip: just choose a block type an click on map.
+
+div(ng-include='"components/footer/footer.html"')

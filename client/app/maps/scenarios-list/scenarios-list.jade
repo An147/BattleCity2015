@@ -1,0 +1,17 @@
+div(ng-include='"components/navbar/navbar.html"')
+header
+	.container
+		.col-xs-12
+			h1 Order your maps and pack it into scenarios!
+
+.container
+	.row
+		.col-xs-12
+			a.btn.btn-success.btn-create(href='/scenario') Create New
+			h2 Your scenarios listed below
+			ul(ng-repeat='scenario in playerScenarios')
+				li 
+					a{{scenario.name}}
+					button.close(type='button', ng-click='deleteScenario(scenario)') ×
+
+div(ng-include='"components/footer/footer.html"')
