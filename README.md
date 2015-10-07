@@ -1,2 +1,2 @@
 # BattleCity2015
-Univercity project: a remake of classic Battle City game,
+University project: a remake of the classic Battle City game.
