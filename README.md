@@ -1,7 +1,22 @@
 # BattleCity2015
-Univercity project: a remake of classic Battle City game.
+Университетский проект: римейк классической игры Battle City оглайн.
 
-## Инструкция по установке и запуску локального сервера
+##Мотивация
+Отсутствие аналогов игры Battle City для игры **по сети**.
+
+##Используемые технологии
+1. **MEAN stack**: MongoDB, Express.js, Angular.js и Node.js - популярное решение для создания веб-приложений целиком на JavaScript.
+2. **Sublime Text 2** - текстовый редактор для сильных духом.
+3. **Git** - система контроля версий.
+4. **Yeoman** - генератор заготовок различных проектов.
+5. **Jade** - язык HTML-шаблонов.
+6. **LESS** - препроцессор для CSS.
+7. **Babel** - поддержка ECMAScript 6, компиляция в соответствующий JavaScript текущей (пятой) версии.
+5. **Grunt** - система автоматической сборки проекта (компиляция шаблонов Jade, LESS, Babel + много чего другого).
+6. **Bower** - пакетный менеджер для front-end. Отличается от npm тем, что хранит только одну версию каждой библиотеки, не засоряя front-end страницу разными зависимостями ("плоская иерархия").
+7. **Phaser** - популярный HTML5-движок для игр. Содержит в себе все необходимые для игры части: работа с графикой, аудио, вводом, система частиц, физика (3 физических движка) и многое другое...
+
+## Установка и запуск локального сервера
 1.	Устанавливаем *Node.js*
 2.	Устанавливаем *MongoDB*
 3.	Устанавливаем *Python* версии 2.7 (потребуется для компиляции некоторых библиотек). Добавляем системную переменную окружения PYTHON равную <полный путь к папке с python’ом> (Мой компьютер -> Свойства -> Дополнительно -> Переменные среды и окружения или что-то типа того).
@@ -22,16 +37,14 @@ Univercity project: a remake of classic Battle City game.
 11.	 Запускаем сервер в первом окне Node.js: **grunt serve**. Опять же, если не установлен Grunt, ставим его через **npm install –g grunt-cli**. Более подробно см. документацию на их офф. Сайте.
 12.	Начинается процесс компиляции проекта и т.д…если все OK, то окно браузера со стартовой страницей проекта откроется само
 
-P.S. Все это проделано с 4 по 12 пункт заново, протестено. Все должно работать. За вопросами – обращаться в личку, или в [Конфу разрабов в ВК](http://vk.com/im?peers=66770317&sel=c39)
+## Источники
 
-## Дополнительные ресурсы
 
-- Исчерпывающая информация о Git:
-[http://git-scm.com/book/ru/v1](http://git-scm.com/book/ru/v1/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5 "http://git-scm.com/book/ru/v1/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5")
 
-- Guide по Angular.js: [https://docs.angularjs.org/guide/introduction](https://docs.angularjs.org/guide/introduction "https://docs.angularjs.org/guide/introduction")
+- [Исчерпывающая информация о Git](http://git-scm.com/book/ru/v1/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5 "http://git-scm.com/book/ru/v1/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5")
+- [Guide по Angular.js](https://docs.angularjs.org/guide/introduction "https://docs.angularjs.org/guide/introduction")
+- [Официальный сайт Phaser](http://phaser.io/ "http://phaser.io/")
+- [Видео по работе в Sublime Text 2 (требуется регистрация)2](http://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2 "http://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2")
 
-- Видео по Sublime Text 2 (требуется регистрация): [http://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2](http://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2 "http://code.tutsplus.com/courses/perfect-workflow-in-sublime-text-2")
-
-## Что-то еще?
-Пожалуй, все.
+## Копирайт
+BattleCity2015 Development Team &copy; 2015
