@@ -37,9 +37,33 @@
 11.	 Запускаем сервер в первом окне Node.js: **grunt serve**. Опять же, если не установлен Grunt, ставим его через **npm install –g grunt-cli**. Более подробно см. документацию на их офф. Сайте.
 12.	Начинается процесс компиляции проекта и т.д…если все OK, то окно браузера со стартовой страницей проекта откроется само
 
+
+##Что реализовано
+
+- Синхронизация клиентской части приложения с серверной
+- Авторизация
+- Редактор карт
+- Редактор сценариев (наборов карт)
+
+##Что будет реализовано
+
+- Генерация карт
+- Собственно, сама игра
+- Мультиплеер (2-4 чел.)
+- Сохранение созданных карт и сценаривер в БД с привязкой к аккаунту автора
+
+##Скриншоты
+
+1. Главная страница веб-приложения
+![](https://github.com/An147/BattleCity2015/tree/master/readme/screen1.JPG)
+2. Страница авторизации
+![](https://github.com/An147/BattleCity2015/tree/master/readme/screen2.JPG)
+3. Раздел "Мои карты"
+![](https://github.com/An147/BattleCity2015/tree/master/readme/screen3.JPG)
+4. Редактор карт
+![](https://github.com/An147/BattleCity2015/tree/master/readme/screen4.JPG)
+
 ## Источники
-
-
 
 - [Исчерпывающая информация о Git](http://git-scm.com/book/ru/v1/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5 "http://git-scm.com/book/ru/v1/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5")
 - [Guide по Angular.js](https://docs.angularjs.org/guide/introduction "https://docs.angularjs.org/guide/introduction")
