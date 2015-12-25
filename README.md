@@ -55,13 +55,13 @@
 ##Скриншоты
 
 1. Главная страница веб-приложения
-![](https://github.com/An147/BattleCity2015/tree/master/readme/screen1.JPG)
+![](http://s7.postimg.org/tkw0vmp6z/screen1.jpg)
 2. Страница авторизации
-![](https://github.com/An147/BattleCity2015/tree/master/readme/screen2.JPG)
+![](http://s7.postimg.org/7x72l6osr/screen2.jpg)
 3. Раздел "Мои карты"
-![](https://github.com/An147/BattleCity2015/tree/master/readme/screen3.JPG)
+![](http://s7.postimg.org/fonsjqsy3/screen3.jpg)
 4. Редактор карт
-![](https://github.com/An147/BattleCity2015/tree/master/readme/screen4.JPG)
+![](http://s7.postimg.org/onigain7v/screen4.jpg)
 
 ## Источники
 
